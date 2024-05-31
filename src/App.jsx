@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
+import Secretariat from './pages/Secretariat';
+
 const App = () => {
 
   const [openNav, setOpenNav] = useState(false);
@@ -19,9 +21,10 @@ const App = () => {
       <Navbar openNav={openNav} setOpenNav={setOpenNav} />
       <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
       <Routes>
-        <Route path="/checkout" element={<Checkout />} />
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
+        <Route path='/secretariat' element={<Secretariat />} />
+
         <Route path='/committees' element={<Committees />} />
         <Route path='/gallery' element={<Gallery />} />
       </Routes>
