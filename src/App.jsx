@@ -30,13 +30,12 @@ const MainApp = () => {
       {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
       {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />}
       <Routes>
-        <Route path="/checkout" element={<Checkout />} />
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/committees' element={<Committees />} />
         <Route path='/gallery' element={<Gallery />} />
       </Routes>
-      <Footer />
+      {!checkout && <Footer />}
     </>
   );
 };

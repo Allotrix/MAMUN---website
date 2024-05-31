@@ -8,14 +8,12 @@ export default {
       "mamun-green": "#02E29E",
       "mamun-light-blue": "#36B7FE",
       "mamun-blue": "#1749DC",
-      white: "#ffffff",
-      transparent: "#000000",
-      orange: "#FF4F00",
     },
 
     fontFamily: {
       "mamun-font": ["Poppins", "sans-serif"],
       "mamun-font-secondary": ["Montserrat", "sans-serif"],
+      "astrapi-billing": ["Inter", "sans-serif"]
     },
   },
   plugins: [],
