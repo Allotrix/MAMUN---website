@@ -29,12 +29,7 @@ const Gallery = () => {
           dataLength={images.length}
           next={fetchMoreImages}
           hasMore={hasMore}
-          loader={
-            <div className="flex justify-center items-center h-32">
-              <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24"></div>
-            </div>
-          }
-          endMessage={<p className="text-[white]">No more images to load</p>}
+          
           className="grid grid-cols-3 gap-5 w-full text-center"
         >
           {images.map((img, index) => (
@@ -65,6 +60,10 @@ const Gallery = () => {
             </button>
           </div>
         )}
+
+<button className=' self-center bg-mamun-green text-[black] px-[60px] py-[2px] rounded-md w-[40%] flex items-center justify-center'>
+          View More
+        </button>
       </section>
     </main>
   );
