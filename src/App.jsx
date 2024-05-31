@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 import Committees from './pages/Committees';
 import Checkout from './pages/Checkout';
 import Navbar from './components/Navbar';
@@ -14,28 +14,39 @@ import RefundPolicy from './pages/Refund';
 import Terms from './pages/Terms';
 
 const App = () => {
+  return (
+    <Router>
+      <MainApp />
+    </Router>
+  );
+};
 
+const MainApp = () => {
+  const location = useLocation();
+  const checkout = location.pathname.startsWith('/checkout');
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <Router>
-        <Cursor/>
+    <>
+    
+          <Cursor/>
 
-      <Navbar openNav={openNav} setOpenNav={setOpenNav} />
-      <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
+      {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
+      {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/secretariat' element={<Secretariat />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
-        <Route path='/committees' element={<Committees />} />
+
+        <Route path='/committees' element={<Committees />} />PrivacyPolicy
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/RefundPolicy' element={<RefundPolicy />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/termsofservice' element={<Terms />} />
 
       </Routes>
-      <Footer />
-    </Router>
+      {!checkout && <Footer />}
+    </>
   );
 };
 

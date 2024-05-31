@@ -3,7 +3,7 @@ import React from 'react'
 const GradientBox = ({tag, title, photo}) => {
     return (
         <div className="flex min-h-min items-center justify-center px-10 w-[100%]">
-          <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue ">
+          <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue">
             <div className="rounded-[12px] p-10 bg-[black] text-[white] flex  justify-center items-center ">
 
                 <div className='w-8/12 flex flex-col gap-6'>

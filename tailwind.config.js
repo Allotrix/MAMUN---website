@@ -13,6 +13,7 @@ export default {
     fontFamily: {
       "mamun-font": ["Poppins", "sans-serif"],
       "mamun-font-secondary": ["Montserrat", "sans-serif"],
+      "astrapi-billing": ["Inter", "sans-serif"]
     },
   },
   plugins: [],
