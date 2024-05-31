@@ -4,6 +4,9 @@ import Committees from './pages/Committees';
 import Checkout from './pages/Checkout';
 import Navbar from './components/Navbar';
 import MobileNavbar from './components/MobileNavbar';
+import Home from './pages/Home';
+import Gallery from './pages/Gallery';
+import Footer from './components/Footer';
 
 const App = () => {
 
