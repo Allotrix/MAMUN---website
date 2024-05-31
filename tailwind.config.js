@@ -15,8 +15,8 @@ export default {
     },
 
     fontFamily: {
-      "allotrix-font": ['Poppins', 'sans-serif'],
-      "allotrix-font-secondary": ['Montserrat', 'sans-serif']
+      "mamun-font": ['Poppins', 'sans-serif'],
+      "mamun-font-secondary": ['Montserrat', 'sans-serif']
     },
   },
   plugins: [],

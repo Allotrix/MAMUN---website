@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 @layer components {
-    
-    *{
-        font-family: "Montserrat", sans-serif ;
-    }
     body{
         background-color: black;
 
@@ -17,9 +13,16 @@
         font-size: 100px;
         background-image: linear-gradient(43deg, #74158D 0%, #C858C0 46%, #FFCC70 100%);
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
-      
-
-    
+    .gradient-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        background-image: linear-gradient(43deg, #02E29E 0%, #36B7FE 46%, #FFCC70 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+    }
 }
