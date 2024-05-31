@@ -30,7 +30,7 @@ const Checkout = () => {
               className="flex flex-col gap-3 w-[350px]"
             >
               <label htmlFor="email" className="flex flex-col gap-1">
-                <p className="text-sm text-[white] font-extralight">Email ID</p>
+                <p className="text-sm text-white">Email ID</p>
                 <input
                   type="email"
                   name="email"
@@ -46,9 +46,7 @@ const Checkout = () => {
                 />
               </label>
               <label htmlFor="phoneNo" className="flex flex-col gap-1">
-                <p className="text-sm text-[white] font-extralight">
-                  Phone Number
-                </p>
+                <p className="text-sm text-white">Phone Number</p>
                 <input
                   type="tel"
                   name="phoneNo"
@@ -170,7 +168,7 @@ const Checkout = () => {
               Powered by <span className="text-[#FF4F00]">Astrapi Money</span>
             </div>
             <div className="w-full max-w-md p-8 mx-auto bg-[#33363F] shadow-lg rounded-lg text-left">
-              <div className="text-left text-md mb-4">Pay Allotrix</div>
+              <div className="text-left text-md mb-4 mt-6">Pay Allotrix</div>
               <div className="text-[27px] font-semibold text-left mb-10">
                 ₹{getPriceForPlan()}.00
               </div>
@@ -202,7 +200,7 @@ const Checkout = () => {
                   <span className="text-white">₹ 2,500</span>
                 </div>
                 <div className="text-center">
-                  <button className="w-1/2 mt-4 py-2 bg-[#02E29E] text-black rounded-lg font-bold text-[#242529]">
+                  <button className="mt-10 mb-7 w-1/2  py-2 bg-[#02E29E] text-black rounded-lg font-bold text-[#242529]">
                     Check out
                   </button>
                 </div>
