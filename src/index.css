@@ -11,7 +11,7 @@
     .gradient-subheading {
         font-family: 'Poppins', sans-serif;
         font-size: 100px;
-        background-image: linear-gradient(43deg, #74158D 0%, #C858C0 46%, #FFCC70 100%);
+        background-image: linear-gradient(90deg, #02E29E 0%,  #36B7FE 90%);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
