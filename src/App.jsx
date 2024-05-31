@@ -13,6 +13,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy"
 import RefundPolicy from './pages/Refund';
 import Terms from './pages/Terms';
 import Sponsors from './pages/Sponsors';
+import Contact from './pages/Contact';
 const App = () => {
   return (
     <Router>
@@ -44,6 +45,8 @@ const MainApp = () => {
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/termsofservice' element={<Terms />} />
+        <Route path='/contact' element={<Contact />} />
+
 
       </Routes>
       {!checkout && <Footer />}

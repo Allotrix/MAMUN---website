@@ -1,5 +1,5 @@
 import React from 'react'
-import GradientBox from '../components/GradientBox'
+import SponsorsBox from '../components/SponsorsBox'
 import { SPONSORS } from '../utils/Constants'
 const Sponsors = () => {
   return (
@@ -10,7 +10,7 @@ const Sponsors = () => {
 
                 {SPONSORS.map((element, index)=>(
 
-                    <GradientBox key = {index} tag = {element.COMPANYNAME} title = {element.TITLE} photo = {element.COMPANYLOGO} buttonName={"Read more"} />
+                    <SponsorsBox key = {index} tag = {element.COMPANYNAME} desc = {element.DESC} title = {element.TITLE} photo = {element.COMPANYLOGO} buttonName={"Read more"} />
 
                 ))}
 
