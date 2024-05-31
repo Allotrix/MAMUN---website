@@ -4,8 +4,6 @@ import Committees from './pages/Committees';
 import Checkout from './pages/Checkout';
 import Navbar from './components/Navbar';
 import MobileNavbar from './components/MobileNavbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
 
 const App = () => {
 
@@ -19,6 +17,8 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/committees' element={<Committees />} />
+        <Route path='/gallery' element={<Gallery />} />
+
       </Routes>
       <Footer />
     </Router>

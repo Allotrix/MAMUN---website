@@ -6,6 +6,7 @@
 @layer components {
     body{
         background-color: black;
+        font-family: "Montserrat", sans-serif;
 
     }
     .gradient-subheading {
@@ -23,4 +24,19 @@
         color: transparent;
         font-weight: bolder;
     }
+ 
+    
+    .loader {
+        border-top-color: #3498db;
+        animation: spinner 1.5s linear infinite;
+      }
+      
+      @keyframes spinner {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
 }
