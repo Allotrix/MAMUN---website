@@ -23,6 +23,9 @@ const Navbar = ({openNav, setOpenNav}) => {
                     <Link to="/committees" onClick={() => setOpenNav(!openNav)}>Committees</Link>
                 </li>
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
+                    <Link to="/secretariat" onClick={() => setOpenNav(!openNav)}>Secretariat</Link>
+                </li>
+                <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
                     <Link to="/gallery" onClick={() => setOpenNav(!openNav)}>Gallery</Link> 
                 </li> 
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
