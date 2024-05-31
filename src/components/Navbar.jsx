@@ -17,13 +17,16 @@ const Navbar = ({openNav, setOpenNav}) => {
             </div>
             <ul className='flex flex-col items-center gap-4 px-6 py-4 rounded-xl md:flex-row md:gap-10 md:py-3 md:px-8 md:h-[55px] text-[white] font-mamun-font-secondary'>
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
-                    <Link to="/" onClick={() => setOpenNav(!openNav)}>Committees</Link>
+                    <Link to="/" onClick={() => setOpenNav(!openNav)}>Home</Link>
                 </li>
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
-                    <Link to="/updates" onClick={() => setOpenNav(!openNav)}>Gallery</Link> 
+                    <Link to="/committees" onClick={() => setOpenNav(!openNav)}>Committees</Link>
+                </li>
+                <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
+                    <Link to="/gallery" onClick={() => setOpenNav(!openNav)}>Gallery</Link> 
                 </li> 
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
-                    <Link to="/getallotrix" onClick={() => setOpenNav(!openNav)}>Itenery</Link> 
+                    <Link to="/itinerary" onClick={() => setOpenNav(!openNav)}>Itinerary</Link> 
                 </li> 
                 <li className='hover:pb-2 transition-all duration-300 ease-out font-mamun-font-secondary'>
                     <Link to="/contact" onClick={() => setOpenNav(!openNav)}>Contact</Link>
@@ -31,7 +34,7 @@ const Navbar = ({openNav, setOpenNav}) => {
             </ul>
             <div className='flex flex-col md:flex-row gap-7 items-center'>
                 <div className='bg-allotrix-std font-light py-2 px-8 rounded-lg text-[white] transition-all duration-300 ease-out hover:bg-[#161616] border-[1px] font-mamun-font-secondary'>
-                    <Link to='/signup' onClick={() => setOpenNav(!openNav)}>
+                    <Link to='/Register' onClick={() => setOpenNav(!openNav)}>
                         Register
                     </Link>
                 </div>
