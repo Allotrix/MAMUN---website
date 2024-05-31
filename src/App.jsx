@@ -12,7 +12,7 @@ import Secretariat from './pages/Secretariat';
 import PrivacyPolicy from "./pages/PrivacyPolicy"
 import RefundPolicy from './pages/Refund';
 import Terms from './pages/Terms';
-
+import Sponsors from './pages/Sponsors';
 const App = () => {
   return (
     <Router>
@@ -37,6 +37,7 @@ const MainApp = () => {
         <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/secretariat' element={<Secretariat />} />
+        <Route path='/sponsors' element={<Sponsors />} />
 
         <Route path='/committees' element={<Committees />} />PrivacyPolicy
         <Route path='/gallery' element={<Gallery />} />

@@ -74,3 +74,15 @@ export const GALLERY = [
     { img: 'https://i.postimg.cc/hGjkgDmn/12.webp', alt: '12' }, 
     { img: 'https://i.postimg.cc/FHGM2d7G/11.webp', alt: '11' }, 
 ];
+
+
+export const SPONSORS = [
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+    {COMPANYNAME: "United Nations General Assembly", TITLE: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR", COMPANYLOGO: "https://i.postimg.cc/0yqtCSnw/IMG-8571.png"},
+]
