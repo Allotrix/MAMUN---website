@@ -10,7 +10,7 @@ const Committees = () => {
 
                 {COMMITTEES.map((element, index)=>(
 
-                    <GradientBox key = {index} tag={element.com} title={element.comAgenda} photo={element.comLogo}/>
+                    <GradientBox key = {index} tag = {element.com} title = {element.comAgenda} photo = {element.comLogo}/>
 
                 ))}
 

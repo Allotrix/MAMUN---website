@@ -7,13 +7,15 @@ import MobileNavbar from './components/MobileNavbar';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Footer from './components/Footer';
-
+import Cursor from './components/Cursor';
 const App = () => {
 
   const [openNav, setOpenNav] = useState(false);
 
   return (
     <Router>
+          <Cursor/>
+
       <Navbar openNav={openNav} setOpenNav={setOpenNav} />
       <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
       <Routes>

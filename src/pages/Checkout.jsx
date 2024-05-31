@@ -20,7 +20,9 @@ const Checkout = () => {
   const selectedPlan = "Standard";
 
   return (
-    <main className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-white">
+<main className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-[white]">
+<section id='committees' className='flex  flex-col text-center gap-8 py-24 mt-24  '>
+
       <div className="max-w-full py-6 shadow-lg rounded-lg flex flex-col md:flex-row space-y-6 md:space-x-36">
         <div className="w-full md:w-1/2">
           <h2 className="text-2xl font-semibold mb-6">Billing Information</h2>
@@ -29,7 +31,7 @@ const Checkout = () => {
             className="font-allotrix-font flex flex-col gap-3 w-[350px]"
           >
             <label htmlFor="email" className="flex flex-col gap-1">
-              <p className="text-sm text-white font-extralight">Email ID</p>
+            <p className="text-sm text-[white] font-extralight">Email ID</p>
               <input
                 type="email"
                 name="email"
@@ -45,7 +47,7 @@ const Checkout = () => {
               />
             </label>
             <label htmlFor="phoneNo" className="flex flex-col gap-1">
-              <p className="text-sm text-white font-extralight">Phone Number</p>
+              <p className="text-sm text-[white] font-extralight">Phone Number</p>
               <input
                 type="tel"
                 name="phoneNo"
@@ -61,7 +63,7 @@ const Checkout = () => {
               />
             </label>
             <div className="flex flex-col gap-0 mt-5">
-              <p className="text-md text-white">Billing Address</p>
+              <p className="text-md text-[white]">Billing Address</p>
 
               <input
                 type="text"
@@ -229,6 +231,7 @@ const Checkout = () => {
           </footer>
         </div>
       </div>
+      </section>
     </main>
   );
 };
