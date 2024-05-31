@@ -1,4 +1,5 @@
 import React from 'react';
+import { COMMITTEES } from '../utils/Constants';
 
 const Home = () => {
   return (
@@ -20,8 +21,18 @@ const Home = () => {
             Register Now
         </a>
       </section>
-      <section className='mt-14 flex flex-wrap'>
-
+      <section className='mt-14'>
+        <div className='flex flex-wrap gap-6 px-4 md:px-32'>
+            {
+                COMMITTEES.map((committee) => {
+                    <article className='rounded-lg bg-gradient-to-r from-mamun-green to-mamun-light-blue'>
+                        <div className='p-10 rounded-lg bg-[black]'>
+                            {committee.name}
+                        </div>
+                    </article>
+                })
+            }
+        </div>
       </section>
     </main>
   )
