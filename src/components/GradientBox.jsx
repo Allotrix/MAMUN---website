@@ -1,23 +1,30 @@
 import React from 'react'
 
-const GradientBox = () => {
+const GradientBox = ({tag, title, photo="https://i.postimg.cc/0yqtCSnw/IMG-8571.png"}) => {
     return (
-        <div className="flex min-h-screen items-center justify-center px-12">
-          <div className="rounded-3xl p-px bg-gradient-to-b from-blue-300 to-pink-300 dark:from-blue-800 dark:to-purple-800">
-            <div className="rounded-[calc(1.5rem-1px)] p-10 bg-white dark:bg-gray-900">
-              <p className="text-gray-700 dark:text-gray-300">
-                I absolutely love Tailus! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze.
-              </p>
-              <div className="mt-8 flex gap-4 items-center">
-                <img
-                  className="h-12 w-12 rounded-full"
-                  src="https://pbs.twimg.com/profile_images/1599029039297077249/poznhFdE_400x400.jpg"
-                  alt="Oketa Fred"
-                />
-                <div>
-                  <h3 className="text-lg font-medium text-gray-700 dark:text-white">Oketa Fred</h3>
-                  <span className="text-sm tracking-wide text-gray-600 dark:text-gray-400">Fullstack Developer</span>
+        <div className="flex min-h-screen items-center justify-center px-12 w-[100%]">
+          <div className="rounded-[12px] p-px bg-gradient-to-b from-mamun-green to-mamun-light-blue ">
+            <div className="rounded-[12px] p-10 bg-[black] text-[white] flex  justify-center items-center ">
+
+                <div className='w-8/12 flex flex-col gap-6'>
+
+                <p className="text-[#CDCDCD] font-bold ">
+                   {tag}
+                </p>
+                <h1 className='font-bold text-white text-2xl'>{title}</h1>
+
+                <button className='border-[1px] border-mamun-light-blue bg-transparent px-[60px] py-[2px] rounded-md w-[50%] flex items-center justify-center'>
+                    Register
+                </button>
                 </div>
+             
+              <div className=" flex gap-4 items-center w-4/12 justify-center">
+                <img
+                  className="w-[200px] h-[200px] rounded-full"
+                  src= {photo} 
+                  alt="img"
+                />
+                
               </div>
             </div>
           </div>

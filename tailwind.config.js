@@ -8,9 +8,10 @@ export default {
     extend: {},
 
     colors: {
-      "mamun-bg": "#09090B",
-      "mamun-text": "#CDCDCD",
-      "mamun-std": "#EF4036"
+      "mamun-green": "#02E29E",
+      "mamun-light-blue": "#36B7FE",
+      "mamun-blue": "#1749DC",
+      
     },
 
     fontFamily: {
