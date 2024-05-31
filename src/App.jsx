@@ -14,6 +14,7 @@ import RefundPolicy from './pages/Refund';
 import Terms from './pages/Terms';
 import Sponsors from './pages/Sponsors';
 import Contact from './pages/Contact';
+import Aboutus from './pages/Aboutus';
 const App = () => {
   return (
     <Router>
@@ -39,6 +40,7 @@ const MainApp = () => {
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/secretariat' element={<Secretariat />} />
         <Route path='/sponsors' element={<Sponsors />} />
+        <Route path='/about' element={<Aboutus />} />PrivacyPolicy
 
         <Route path='/committees' element={<Committees />} />PrivacyPolicy
         <Route path='/gallery' element={<Gallery />} />
