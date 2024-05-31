@@ -30,7 +30,7 @@ const Checkout = () => {
               className="font-allotrix-font flex flex-col gap-3 w-[350px]"
             >
               <label htmlFor="email" className="flex flex-col gap-1">
-                <p className="text-sm text-[white] font-extralight">Email ID</p>
+                <p className="text-sm text-white">Email ID</p>
                 <input
                   type="email"
                   name="email"
@@ -46,9 +46,7 @@ const Checkout = () => {
                 />
               </label>
               <label htmlFor="phoneNo" className="flex flex-col gap-1">
-                <p className="text-sm text-[white] font-extralight">
-                  Phone Number
-                </p>
+                <p className="text-sm text-white">Phone Number</p>
                 <input
                   type="tel"
                   name="phoneNo"
@@ -165,12 +163,12 @@ const Checkout = () => {
             </form>
           </div>
 
-          <div className="w-full md:w-1/2 flex flex-col items-center">
-            <div className="top-4 right-4 text-sm text-white ml-auto font-bold mb-2">
+          <div className="w-full md:w-1/2 flex flex-col items-center text-sm">
+            <div className="right-4 text-sm text-white ml-auto font-bold mb-2">
               Powered by <span className="text-orange">Astrapí Money</span>
             </div>
             <div className="w-full max-w-md p-8 mx-auto bg-[#33363F] shadow-lg rounded-lg text-left">
-              <div className="text-left text-md mb-4">Pay Allotrix</div>
+              <div className="text-left text-md mb-4 mt-6">Pay Allotrix</div>
               <div className="text-[27px] font-semibold text-left mb-10">
                 ₹{getPriceForPlan()}.00
               </div>
@@ -202,7 +200,7 @@ const Checkout = () => {
                   <span className="text-white">₹ 2,500</span>
                 </div>
                 <div className="text-center">
-                  <button className="w-1/2 mt-4 py-2 bg-[#02E29E] text-black rounded-lg font-bold text-[#242529]">
+                  <button className="mt-10 mb-7 w-1/2  py-2 bg-[#02E29E] text-black rounded-lg font-bold text-[#242529]">
                     Check out
                   </button>
                 </div>
@@ -231,7 +229,7 @@ const Checkout = () => {
                 </a>
               </div>
 
-              <p className="text-[#414141] text-left">
+              <p className="text-[#414141] text-center">
                 Note: Astrapí Money belongs to the same domain as Allotrix.
                 Allotrix uses Astrapí Money's plugin to verify payments. Review
                 Astrapí Money's Privacy Policy | Terms and conditions to know
