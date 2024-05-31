@@ -50,7 +50,7 @@ const Footer = () => {
                     </article>
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
-                            <Link to="/getAllotrix">
+                            <Link to="/">
                                 Other Links
                             </Link>
                         </h3>
@@ -78,7 +78,7 @@ const Footer = () => {
                         </ul>
                     </article>
                     <article className='flex flex-col gap-3'>
-                        <h3 className='text-allotrix-std text-sm'>
+                        <h3 className=' text-sm'>
                             Resources
                         </h3>
                         <ul className='text-sm'>
@@ -86,7 +86,7 @@ const Footer = () => {
                         </ul>
                     </article>
                     <article className='flex flex-col gap-3'>
-                        <h3 className='text-allotrix-std text-sm'>
+                        <h3 className='text-sm'>
                             <Link to="/contact">
                                 Contact
                             </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
                             <li>
                                 <a className='flex gap-1 items-center' href="mailto:allotrixapp@gmail.com?subject=Meeting%20Request">
                                     <IoMdMail />
-                                    allotrixapp@gmail.com
+                                    info@oneworldfoundation.in
                                 </a>
                             </li>
                             <li>
@@ -116,7 +116,7 @@ const Footer = () => {
             </div>
             <aside className='flex justify-between items-center border-t-2 border-solid border-t-mamun-blue pt-6 md:mx-32'>
                 <div className='w-[80px] gradient-heading text-xl'>
-                    MaMUN
+                    Madras MUN
                 </div>
                 <div className='bg-[#161617] text-[13px] font-light py-1 px-4 rounded-2xl text-[white] transition-all duration-300 ease-out border-[1px] border-solid hover:border-mamun-blue'>
                     <a href='/'>
