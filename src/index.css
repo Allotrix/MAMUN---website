@@ -17,8 +17,6 @@
         color: transparent;
     }
     .gradient-heading {
-        font-family: 'Poppins', sans-serif;
-        font-size: 30px;
         background-image: linear-gradient(43deg, #02E29E 0%, #36B7FE 46%, #FFCC70 100%);
         -webkit-background-clip: text;
         background-clip: text;

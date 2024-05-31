@@ -4,6 +4,8 @@ import Committees from './pages/Committees';
 import Checkout from './pages/Checkout';
 import Navbar from './components/Navbar';
 import MobileNavbar from './components/MobileNavbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
 
 const App = () => {
 
@@ -14,9 +16,11 @@ const App = () => {
       <Navbar openNav={openNav} setOpenNav={setOpenNav} />
       <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/committees' element={<Committees />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
