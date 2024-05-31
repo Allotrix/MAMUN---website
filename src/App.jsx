@@ -37,29 +37,8 @@ const MainApp = () => {
         <Route path='/gallery' element={<Gallery />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
-
-const MainApp = () => {
-  const location = useLocation();
-  const checkout = location.pathname.startsWith('/checkout');
-
-  return (
-    <Router>
-      {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
-      {!checkout &&<MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
-      <Routes>
-        <Route path="/checkout" element={<Checkout />} />
-        <Route path='/' element={<Home />} />
-        <Route path='/checkout' element={<Checkout />} />
-        <Route path='/committees' element={<Committees />} />
-        <Route path='/gallery' element={<Gallery />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
-
-}
 
 export default App;
