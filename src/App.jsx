@@ -4,7 +4,7 @@ import Committees from './pages/Committees';
 import Checkout from './pages/Checkout';
 import Navbar from './components/Navbar';
 import MobileNavbar from './components/MobileNavbar';
-
+import Gallery from './pages/Gallery';
 const App = () => {
 
   const [openNav, setOpenNav] = useState(false);
@@ -16,6 +16,8 @@ const App = () => {
       <Routes>
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/committees' element={<Committees />} />
+        <Route path='/gallery' element={<Gallery />} />
+
       </Routes>
     </Router>
   )
