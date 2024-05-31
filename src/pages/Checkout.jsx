@@ -246,7 +246,7 @@ const Checkout = () => {
 export default Checkout;
 
 {
-  /* <main className='bg-white text-[#303030] relative overflow-hidden z-10 flex flex-col md:flex-row justify-center gap-14 md:gap-[unset]'>
+  /* <main className='bg-[white] text-[#303030] relative overflow-hidden z-10 flex flex-col md:flex-row justify-center gap-14 md:gap-[unset]'>
             <section className='md:w-[50%] flex md:justify-end justify-center md:pr-24 pt-20'>
                 <div className='flex flex-col gap-10 md:w-[400px] w-[350px]'>
                     <Link to={'/getallotrix/download/payment'} className='text-2xl'>
@@ -315,37 +315,37 @@ export default Checkout;
                         <p className='text-sm text-[#c7c6c6] font-extralight'>
                             Email ID
                         </p>
-                        <input type="email" name='email' value={checkoutForm.email} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-md w-full bg-[white] border border-[#c7c6c6] text-md' required />
+                        <input type="email" name='email' value={checkoutForm.email} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-md w-full bg-[[white]] border border-[#c7c6c6] text-md' required />
                     </label>
                     <label htmlFor='phoneNo' className='flex flex-col gap-1'>
                         <p className='text-sm text-[#c7c6c6] font-extralight'>
                             Phone Number
                         </p>
-                        <input type="tel" name='phoneNo' value={checkoutForm.phoneNo} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-md w-full bg-[white] border border-[#c7c6c6] text-md' required />
+                        <input type="tel" name='phoneNo' value={checkoutForm.phoneNo} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-md w-full bg-[[white]] border border-[#c7c6c6] text-md' required />
                     </label>
                     <aside className='flex flex-col gap-1'>
                         <p className='text-sm text-[#c7c6c6] font-extralight'>
                             Billing Address
                         </p>
                         <div className='flex flex-col'>
-                            <input type="text" placeholder='Full Name' name='fullName' value={checkoutForm.fullName} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-t-md w-full bg-[white] border border-[#c7c6c6]' required />
+                            <input type="text" placeholder='Full Name' name='fullName' value={checkoutForm.fullName} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] outline-none rounded-t-md w-full bg-[[white]] border border-[#c7c6c6]' required />
                             <input type="text" placeholder='Country' name='country' value={checkoutForm.country} disabled className='px-2 cursor-not-allowed py-[7px] outline-none w-full bg-[#c7c6c6] border border-[#c7c6c6]' />
-                            <input type="text" placeholder='Address Line 1' value={checkoutForm.addressLine1} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} name='addressLine1' className='px-2 py-[7px] w-full outline-none bg-[white] border border-[#c7c6c6]' required />
-                            <input type="text" placeholder='Address Line 2' name='addressLine2' value={checkoutForm.addressLine2} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-full outline-none bg-[white] border border-[#c7c6c6]' required />
+                            <input type="text" placeholder='Address Line 1' value={checkoutForm.addressLine1} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} name='addressLine1' className='px-2 py-[7px] w-full outline-none bg-[[white]] border border-[#c7c6c6]' required />
+                            <input type="text" placeholder='Address Line 2' name='addressLine2' value={checkoutForm.addressLine2} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-full outline-none bg-[[white]] border border-[#c7c6c6]' required />
                             <div>
-                                <input type="text" placeholder='City' name='city' value={checkoutForm.city} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-[50%] bg-[white] outline-none border border-[#c7c6c6]' required />
-                                <input type='text' placeholder='PIN' name='pinCode' value={checkoutForm.pinCode} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-[50%] bg-[white] outline-none border border-[#c7c6c6]' required />
+                                <input type="text" placeholder='City' name='city' value={checkoutForm.city} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-[50%] bg-[[white]] outline-none border border-[#c7c6c6]' required />
+                                <input type='text' placeholder='PIN' name='pinCode' value={checkoutForm.pinCode} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] w-[50%] bg-[[white]] outline-none border border-[#c7c6c6]' required />
                             </div> 
-                            <input type="text" placeholder='State' name='state' value={checkoutForm.state} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] rounded-b-md w-full outline-none bg-[white] border border-[#c7c6c6]' required />
+                            <input type="text" placeholder='State' name='state' value={checkoutForm.state} onChange={(e) => setCheckoutForm({ ...checkoutForm, [e.target.name]: e.target.value })} className='px-2 py-[7px] rounded-b-md w-full outline-none bg-[[white]] border border-[#c7c6c6]' required />
                         </div>
                     </aside>
                     {
                         selectedPlan === "Free" ? (
-                            <button type='submit' className='w-full text-[white] uppercase font-allotrix-font-secondary bg-allotrix-std rounded-md py-1 px-4 mt-4'>
+                            <button type='submit' className='w-full text-[[white]] uppercase font-allotrix-font-secondary bg-allotrix-std rounded-md py-1 px-4 mt-4'>
                                 Apply
                             </button>
                         ) : (
-                            <button type='submit' className='w-full text-[white] uppercase font-allotrix-font-secondary bg-allotrix-std rounded-md py-1 px-4 mt-4'>
+                            <button type='submit' className='w-full text-[[white]] uppercase font-allotrix-font-secondary bg-allotrix-std rounded-md py-1 px-4 mt-4'>
                                 Pay
                             </button>
                         )

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Committees from "./pages/Committees";
 import Checkout from "./pages/Checkout";
 import Navbar from "./components/Navbar";
@@ -11,24 +11,33 @@ import Cursor from "./components/Cursor";
 import Secretariat from "./pages/Secretariat";
 
 const App = () => {
+  return (
+    <Router>
+      <MainApp />
+    </Router>
+  );
+};
+
+const MainApp = () => {
+  const location = useLocation();
+  const checkout = location.pathname.startsWith('/checkout');
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <Router>
+    <>
       <Cursor />
 
-      <Navbar openNav={openNav} setOpenNav={setOpenNav} />
-      <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
+      {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
+      {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />}
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/secretariat" element={<Secretariat />} />
-
-        <Route path="/committees" element={<Committees />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/checkout' element={<Checkout />} />
+        <Route path='/committees' element={<Committees />} />
+        <Route path='/gallery' element={<Gallery />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
 
