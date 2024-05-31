@@ -1,8 +1,34 @@
-import React from 'react';
-import { COMMITTEES } from '../utils/Constants';
+import React, { useEffect, useState } from 'react';
+import { COMMITTEES, USERS } from '../utils/Constants';
 import GradientBox from '../components/GradientBox';
+import { GiSpeaker } from "react-icons/gi";
+import { IoVolumeMute } from "react-icons/io5";
+import { Carousel } from 'react-responsive-carousel';
+import TestimonialCard from '../components/TestimonialCard';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Home = () => {
+
+  const [mute, setMute] = useState(false);
+
+  const handleVideoMute = () => {
+    const video = document.getElementById('munVideo');
+    if(video) {
+      video.muted = !video.muted;
+      setMute(video.muted);
+    }
+  }
+
+  const groupUsers = (users) => {
+    const groupedUsers = [];
+    for (let i = 0; i < users.length; i += 2) {
+      groupedUsers.push(users.slice(i, i + 2));
+    }
+    return groupedUsers;
+  };
+
+  const groupedUsers = groupUsers(USERS);
+
   return (
     <main className='font-mamun-font-secondary text-[white]'>
       <section className='pt-32 mx-auto w-full flex flex-col items-center'>
@@ -45,9 +71,9 @@ const Home = () => {
         </h2>
       </section>
       <section className='mt-14 w-full'>
-        <GradientBox tag={"Madras Model United Nations"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"/maamun.png"} />
+        <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"/maamun.png"} />
       </section>
-      <section className='w-full bg-[#141415] h-[100px] flex items-center my-24'>
+      <section className='w-full bg-[#141415] h-[100px] flex items-center mt-24 mb-10'>
         <div className='w-full md:w-[75%] overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
           {
               
@@ -72,6 +98,39 @@ const Home = () => {
                 In partnership with <span className='text-mamun-blue font-semibold tracking-wide'>OWF</span>
             </p>
         </aside>
+      </section>
+      <section className='w-full'>
+        <div className='px-4 md:mx-32 rounded-lg relative flex flex-col items-center'>
+          <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay loop>
+            Your browser does not support the video.
+          </video>
+          <button onClick={handleVideoMute} className='p-2 rounded-md bg-[#949393] text-[black] text-2xl absolute right-6 top-4'>
+            {mute ? <IoVolumeMute /> : <GiSpeaker />}
+          </button>
+          <a className='text-md text-center' href="/">
+            View video gallery
+          </a>
+          <h5 className='text-center px-4 w-full md:w-[500px] my-10 text-2xl'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium nisi tempore rerum pariatur! Maiores, quibusdam nisi repellat est tenetur quas reprehenderit ipsum labore corporis, iste obcaecati! Tempora, itaque nihil.
+          </h5>
+        </div>
+      </section>
+      <section className='w-full px-4 md:px-32 my-14'>
+      <Carousel autoPlay infiniteLoop interval={3000} showThumbs={false} showStatus={false}>
+        {groupedUsers.map((group, index) => (
+          <div key={index} className="flex flex-col md:flex-row gap-4 justify-center">
+            {group.map((user, idx) => (
+              <TestimonialCard
+                key={idx}
+                name={user.name}
+                designation={user.designation}
+                img={user.profile}
+                message={user.message}
+              />
+            ))}
+          </div>
+        ))}
+        </Carousel>
       </section>
     </main>
   )
