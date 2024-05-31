@@ -89,17 +89,17 @@ const Spotlight = () => {
 
 
     return (
-        <section id="previous-mun-photos" className={`flex flex-col  items-center gap-6 h-auto`}>
+        <section id="previous-mun-photos" className={`flex flex-col  items-center gap-6 h-auto cursor-move`}>
     
         
-        <div ref={imageTrack} className='flex gap-[4vmin] relative left-[50%] mt-4 ' >
+        <div ref={imageTrack} className='flex gap-[4vmin] relative left-[0%] mt-4 ' >
             {   
                 
                 SPOTLIGHT.map((photo, index)=>(
                     <img key = {index} 
                     src={photo.img} 
                     alt = {photo.alt} 
-                    className='w-[40vmin] h-[56vmin] object-cover pointer-events-none image rounded-md cursor-' 
+                    className='w-[40vmin] h-[56vmin] object-cover pointer-events-none image rounded-md' 
                     />
                 ))
             }

@@ -51,28 +51,28 @@ const Footer = () => {
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             <Link to="/getAllotrix">
-                                Shop
+                                Other Links
                             </Link>
                         </h3>
                         <ul className='text-sm'>
                             <li>
-                                <a href="/getAllotrix/download">
-                                    Download
+                                <a href="/gallery">
+                                    Gallery
                                 </a>
                             </li>
                             <li>
-                                <a href="/#whyallotrix">
-                                    Why Allotrix?
+                                <a href="/secretariat">
+                                Secretariat
                                 </a>
                             </li>
                             <li>
-                                <a href="#pricing">
-                                    Pricing
+                                <a href="/committees">
+                                    committees
                                 </a>
                             </li>
                             <li>
-                                <a href="/getallotrix/otherproducts">
-                                    Other Products
+                                <a href="/">
+                                    Other
                                 </a>
                             </li>
                         </ul>
