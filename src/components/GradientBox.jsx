@@ -1,8 +1,8 @@
 import React from 'react'
 
-const GradientBox = ({tag, title, photo="https://i.postimg.cc/0yqtCSnw/IMG-8571.png"}) => {
+const GradientBox = ({tag, title, photo}) => {
     return (
-        <div className="flex min-h-min items-center justify-center px-12 w-[100%]">
+        <div className="flex min-h-min items-center justify-center px-10 w-[100%]">
           <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue ">
             <div className="rounded-[12px] p-10 bg-[black] text-[white] flex  justify-center items-center ">
 
@@ -18,17 +18,17 @@ const GradientBox = ({tag, title, photo="https://i.postimg.cc/0yqtCSnw/IMG-8571.
                 </button>
                 </div>
              
-              <div className=" flex gap-4 items-center w-4/12 justify-center">
-                <img
-                  className="w-[200px] h-[200px] rounded-full"
-                  src= {photo} 
-                  alt="img"
+            <div className=" flex gap-4 items-center w-4/12 justify-center">
+            <img
+                className="w-[200px] h-[200px] rounded-full"
+                src= {photo} 
+                alt="img"
                 />
                 
-              </div>
             </div>
-          </div>
         </div>
+    </div>
+</div>
       );
 }
 
