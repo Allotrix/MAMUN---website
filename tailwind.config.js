@@ -6,6 +6,17 @@ export default {
   ],
   theme: {
     extend: {},
+
+    colors: {
+      "mamun-bg": "#09090B",
+      "mamun-text": "#CDCDCD",
+      "mamun-std": "#EF4036"
+    },
+
+    fontFamily: {
+      "allotrix-font": ['Poppins', 'sans-serif'],
+      "allotrix-font-secondary": ['Montserrat', 'sans-serif']
+    },
   },
   plugins: [],
 }

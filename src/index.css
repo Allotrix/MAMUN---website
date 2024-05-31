@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .gradient-subheading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 100px;
+        background-image: linear-gradient(43deg, #74158D 0%, #C858C0 46%, #FFCC70 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+      
+
+    
+}
