@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react';
 export const PaymentContext = createContext();
 
 const PaymentState = ({ children }) => {
-
+    //new
     const [checkoutForm, setCheckoutForm] = useState({
         fullName: "",
         email: "",
