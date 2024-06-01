@@ -88,7 +88,7 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-        className='absolute bg-mamun-green rounded-full pointer-events-none font-mamun-font-secondary text-[white] flex flex-col items-center justify-center h-full'
+        className='absolute bg-mamun-green rounded-full pointer-events-none font-bold font-mamun-font-secondary text-[black] flex flex-col items-center justify-center h-full'
         style={{
           width: '110px',
           height: '110px',
@@ -98,7 +98,7 @@ const Cursor = () => {
           zIndex: 100,
         }}
       >
-        Scroll
+        Click
       </div>
       )}
     </>

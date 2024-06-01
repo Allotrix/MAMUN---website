@@ -1,22 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { COMMITTEES, USERS, CLIENTS, HEROCOMMITTEES, SECRETARIAT} from '../utils/Constants';
+import React, { useState } from 'react';
+import { USERS, CLIENTS, HEROCOMMITTEES, SECRETARIAT} from '../utils/Constants';
 import GradientBox from '../components/GradientBox';
 import { GiSpeaker } from "react-icons/gi";
 import { IoVolumeMute } from "react-icons/io5";
 import { Carousel } from 'react-responsive-carousel';
 import TestimonialCard from '../components/TestimonialCard';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import SecretariatCard from '../components/SecretariatCard';
 
 const Home = () => {
 
   const [mute, setMute] = useState(false);
   const [secretariatIndex, setSecretariatIndex] = useState(0);
 
-  const handleSecretariatScroll = (e) => {
-    const scrollTop = e.target.scrollTop;
-    const itemHeight = e.target.scrollHeight / secretariat.length;
-    const index = Math.floor(scrollTop / itemHeight);
-    setSecretariatIndex(index);
+  const handleSecretariatNext = () => {
+    setSecretariatIndex((prevIndex) => (prevIndex + 1) % SECRETARIAT.length);
   }
 
   const handleVideoMute = () => {
@@ -60,7 +58,7 @@ const Home = () => {
         <div className='flex flex-wrap gap-3 px-4 md:px-32 justify-center'>
           {
             HEROCOMMITTEES.slice(0, 6).map((committee) => (
-              <article className='rounded-lg h-[200px] w-[160px] border border-mamun-light-blue flex flex-col items-center justify-center hover:scale-110 transition-all duration-300 ease-out'>
+              <article key={committee.com} className='rounded-lg h-[200px] w-[160px] border border-mamun-light-blue flex flex-col items-center justify-center hover:scale-110 transition-all duration-300 ease-out'>
                   <img className='w-[130px] h-[130px]' src={committee.comLogo} alt="AV" />
                   <h3>
                     {committee.com}
@@ -73,24 +71,11 @@ const Home = () => {
           and more exciting committees! 
         </article>
       </section>
-      <section id='secretariat' className='mt-14 w-full'>
+      <section id='secretariat' className='mt-14 w-full' onClick={handleSecretariatNext}>
         <h2 className='md:text-5xl text-4xl px-4 text-white text-center'>
           The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
         </h2>
-        <div className='flex gap-24 max-w-[65%] mx-auto my-20'>
-          <article className='flex flex-col gap-3 w-[70%]'>
-            <h4 className='text-4xl font-bold'>
-              Fazil Razak
-            </h4>
-            <h5 className='gradient-heading text-xl font-bold'>
-              Head Chairperson | DISEC
-            </h5>
-            <p className='text-xl text-justify'>
-              Lorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit amet
-            </p>
-          </article>
-          <img className='w-[35%] min-h-full rounded-md object-cover' src="https://i.postimg.cc/1XwxTvqN/6.webp" alt="Executive" />
-        </div>
+        <SecretariatCard name={SECRETARIAT[secretariatIndex].name} designation={SECRETARIAT[secretariatIndex].designation} description={SECRETARIAT[secretariatIndex].description} img={SECRETARIAT[secretariatIndex].img} />
       </section>
       <section className='mt-14 md:max-w-[70%] mx-auto'>
         <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
@@ -121,7 +106,7 @@ const Home = () => {
             </p>
         </aside>
       </section>
-      {/* <section className='w-full'>
+      <section className='w-full'>
         <div className='px-4 md:mx-32 rounded-lg relative flex flex-col items-center'>
           <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay loop>
             Your browser does not support the video.
@@ -136,7 +121,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium nisi tempore rerum pariatur! Maiores, quibusdam nisi repellat est tenetur quas reprehenderit ipsum labore corporis, iste obcaecati! Tempora, itaque nihil.
           </h5>
         </div>
-      </section> */}
+      </section>
       <section className='w-full px-4 md:px-32 my-14'>
       <Carousel autoPlay infiniteLoop interval={3000} showThumbs={false} showStatus={false}>
         {groupedUsers.map((group, index) => (
