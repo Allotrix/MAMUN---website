@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { USERS, CLIENTS, HEROCOMMITTEES, SECRETARIAT} from '../utils/Constants';
+import { USERS, CLIENTS, SECRETARIAT, COMMITTEES} from '../utils/Constants';
 import GradientBox from '../components/GradientBox';
 import { GiSpeaker } from "react-icons/gi";
 import { IoVolumeMute } from "react-icons/io5";
@@ -9,6 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import SecretariatCard from '../components/SecretariatCard';
 import StickyScroll from '../components/StickyScroll';
 import { CHAIRS } from "../utils/Constants";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -59,13 +60,13 @@ const Home = () => {
       <section className='mt-14 w-full'>
         <div className='flex flex-wrap gap-3 px-4 md:px-32 justify-center'>
           {
-            HEROCOMMITTEES.slice(0, 6).map((committee) => (
-              <article key={committee.com} className='rounded-lg h-[200px] w-[160px] border border-mamun-light-blue flex flex-col items-center justify-center hover:scale-110 transition-all duration-300 ease-out'>
+            COMMITTEES.slice(0, 6).map((committee) => (
+              <Link to={`/committees/${committee.comAbb.toLowerCase()}`} key={committee.comAbb} className='rounded-lg h-[200px] w-[160px] border border-mamun-light-blue flex flex-col items-center justify-center hover:scale-110 transition-all duration-300 ease-out'>
                   <img className='w-[130px] h-[130px]' src={committee.comLogo} alt="AV" />
                   <h3>
-                    {committee.com}
+                    {committee.comAbb}
                   </h3>
-              </article>
+              </Link>
             ))
           }
         </div>

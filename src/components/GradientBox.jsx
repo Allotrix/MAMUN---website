@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const GradientBox = ({ tag, title, photo, buttonName }) => {
+const GradientBox = ({ tag, title, photo, buttonName, link }) => {
   return (
     <div className="flex min-h-min items-center justify-center px-10 w-[100%]">
         <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue">
@@ -9,9 +10,9 @@ const GradientBox = ({ tag, title, photo, buttonName }) => {
                     <p className="text-[#CDCDCD] text-left  ">{tag}</p>
                     <h1 className="font-bold text-white text-left text-2xl">{title}</h1>
 
-                    <button className="border-[1px] border-mamun-light-blue bg-transparent px-[60px] py-[2px] rounded-md w-[40%] flex items-center justify-center">
+                    <Link to={link} className="border-[1px] border-mamun-light-blue bg-transparent px-[60px] py-[2px] rounded-md w-[40%] flex items-center justify-center">
                     {buttonName}
-                    </button>
+                    </Link>
                 </div>
 
                 <div className=" flex gap-4 items-center md:w-4/12 justify-center">

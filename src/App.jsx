@@ -17,6 +17,7 @@ import Contact from './pages/Contact';
 import Aboutus from './pages/Aboutus';
 import Itinerary from './pages/Itinerary';
 import PaymentState from './contexts/PaymentContext';
+import Agenda from './pages/Agenda';
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const MainApp = () => {
         <Route path='/sponsors' element={<Sponsors />} />
         <Route path='/about' element={<Aboutus />} />
         <Route path='/committees' element={<Committees />} />
+        <Route path='/committees/:comName' element={<Agenda />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/itinerary' element={<Itinerary />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
