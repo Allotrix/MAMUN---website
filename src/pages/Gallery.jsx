@@ -20,7 +20,7 @@ const Gallery = () => {
 
   return (
     <main className='relative overflow-hidden font-mamun-font-secondary'>
-      <section id='committees' className='flex flex-col text-center gap-8 py-24 mt-24 px-48'>
+      <section id='committees' className='flex flex-col text-center gap-8 py-24 mt-24 px-4 md:px-48'>
         <h1 className='text-[60px] font-bold text-[white]'>Spotlight</h1>
         <Spotlight />
         <h1 className='text-[60px] text-[white]'>Gallery</h1>

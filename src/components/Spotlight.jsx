@@ -89,10 +89,10 @@ const Spotlight = () => {
 
 
     return (
-        <section id="previous-mun-photos" className={`flex flex-col  items-center gap-6 h-auto cursor-move`}>
+        <section id="previous-mun-photos" className={`flex flex-col items-center gap-6 h-auto cursor-move`}>
     
         
-        <div ref={imageTrack} className='flex gap-[4vmin] relative left-[0%] mt-4 ' >
+        <div ref={imageTrack} className='flex gap-[4vmin] relative md:left-[0%] mt-4 spotlight' >
             {   
                 
                 SPOTLIGHT.map((photo, index)=>(
