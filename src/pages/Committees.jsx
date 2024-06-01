@@ -6,7 +6,7 @@ const Committees = () => {
     <>
     <main className='relative overflow-hidden'>
             <section id='committees' className='flex  flex-col text-center gap-8 py-24 mt-24  '>
-                <h1 className='text-[60px] font-bold text-[white]'>Committees</h1>
+                <h1 className='md:text-[60px] text-4xl font-bold text-[white]'>Committees</h1>
 
                 {COMMITTEES.map((element, index)=>(
 

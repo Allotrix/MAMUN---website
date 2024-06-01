@@ -70,7 +70,7 @@ const Home = () => {
           The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
         </h2>
       </section>
-      <section className='mt-14 w-full'>
+      <section className='mt-14 md:max-w-[70%] mx-auto'>
         <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
       </section>
       <section className='w-full bg-[#141415] h-[100px] flex items-center mt-24 mb-10'>
@@ -99,7 +99,7 @@ const Home = () => {
             </p>
         </aside>
       </section>
-      <section className='w-full'>
+      {/* <section className='w-full'>
         <div className='px-4 md:mx-32 rounded-lg relative flex flex-col items-center'>
           <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay loop>
             Your browser does not support the video.
@@ -114,7 +114,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium nisi tempore rerum pariatur! Maiores, quibusdam nisi repellat est tenetur quas reprehenderit ipsum labore corporis, iste obcaecati! Tempora, itaque nihil.
           </h5>
         </div>
-      </section>
+      </section> */}
       <section className='w-full px-4 md:px-32 my-14'>
       <Carousel autoPlay infiniteLoop interval={3000} showThumbs={false} showStatus={false}>
         {groupedUsers.map((group, index) => (
