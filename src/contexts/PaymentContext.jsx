@@ -24,7 +24,7 @@ const PaymentState = ({ children }) => {
     }
 
     const checkoutData = {
-        "merchantId": process.env.REACT_APP_PHONEPE_MERCHANT_ID,
+        "merchantId":   process.env.REACT_APP_PHONEPE_MERCHANT_ID,
         "merchantTransactionId": paymentData.merchantTransactionId,
         "merchantUserId": paymentData.merchantUserId,
         "amount": 209000,
