@@ -196,3 +196,27 @@ export const SECRETARIAT = [
     img: "https://i.postimg.cc/150hrYSk/7.webp",
   },
 ]
+
+export const CHAIRS = [
+  {name: "Atheeb Hussain", 
+    designation: "Co Chairperson | DISEC",
+    img:"http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+  },
+  {name: "Lokesh Narayan", 
+    designation: "Co Chairperson | DISEC",
+    img:"http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+  },
+  {name: "Fazil Razak", 
+    designation: "Head Chairperson | FAO",
+    img:"http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+  },
+  {name: "Shankar", 
+    designation: "Head Chairperson | SOCHUM",
+    img:"http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+  },
+ 
+]

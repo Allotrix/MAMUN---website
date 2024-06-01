@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import TestimonialCard from '../components/TestimonialCard';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import SecretariatCard from '../components/SecretariatCard';
-
+import StickyScroll from '../components/StickyScroll';
 const Home = () => {
 
   const [mute, setMute] = useState(false);
@@ -75,7 +75,11 @@ const Home = () => {
         <h2 className='md:text-5xl text-4xl px-4 text-white text-center'>
           The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
         </h2>
-        <SecretariatCard name={SECRETARIAT[secretariatIndex].name} designation={SECRETARIAT[secretariatIndex].designation} description={SECRETARIAT[secretariatIndex].description} img={SECRETARIAT[secretariatIndex].img} />
+        <StickyScroll/>
+
+
+
+
       </section>
       <section className='mt-14 md:max-w-[70%] mx-auto'>
         <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
@@ -106,6 +110,7 @@ const Home = () => {
             </p>
         </aside>
       </section>
+
       <section className='w-full'>
         <div className='px-4 md:mx-32 rounded-lg relative flex flex-col items-center'>
           <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay loop>
