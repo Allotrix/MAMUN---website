@@ -16,10 +16,14 @@ import Sponsors from './pages/Sponsors';
 import Contact from './pages/Contact';
 import Aboutus from './pages/Aboutus';
 import Itinerary from './pages/Itinerary';
+import PaymentState from './contexts/PaymentContext';
+
 const App = () => {
   return (
     <Router>
-      <MainApp />
+      <PaymentState>
+        <MainApp />
+      </PaymentState>
     </Router>
   );
 };

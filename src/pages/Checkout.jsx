@@ -1,21 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { PaymentContext } from '../contexts/PaymentContext';
 
 const Checkout = () => {
 
-  const [checkoutForm, setCheckoutForm] = useState({
-    fullName: "",
-    email: "",
-    phoneNo: "",
-    addressLine1: "",
-    addressLine2: "", 
-    country: "India",
-    city: "",
-    pinCode: "",
-    state: ""
-  });
+  const { checkoutForm, setCheckoutForm } = useContext(PaymentContext);
 
   return (
     <main className='text-[white] font-astrapi-billing cursor-default'>
@@ -127,10 +118,10 @@ const Checkout = () => {
             <a href="/" className='md:pr-7 pr-4 hover:underline'>
               Privacy Policy
             </a>
-            <a href="/" className='md:px-7 px-4 border-x border-[white] hover:underline'>
+            <a href="https://www.allotrix.com/getallotrix/download" target='blank' className='md:px-7 px-4 border-x border-[white] hover:underline'>
               Get Allotrix
             </a>
-            <a href="/" className='md:pl-7 pl-4 hover:underline'>
+            <a href="https://astrapimoney.com/" target='blank' className='md:pl-7 pl-4 hover:underline'>
               Get Astrapi Money
             </a>
           </aside>
