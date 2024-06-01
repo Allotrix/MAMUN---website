@@ -8,7 +8,7 @@ const GradientBox = ({tag, title, photo, buttonName}) => {
 
                 <div className='w-8/12 flex flex-col gap-6'>
 
-                <p className="text-[#CDCDCD] text-left font-bold ">
+                <p className="text-[#CDCDCD] text-left  ">
                    {tag}
                 </p>
                 <h1 className='font-bold text-white text-left text-2xl'>{title}</h1>
