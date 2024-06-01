@@ -31,9 +31,7 @@ const MainApp = () => {
 
   return (
     <>
-    
-          <Cursor/>
-
+      {!checkout && <Cursor/>}
       {!checkout && <Navbar openNav={openNav} setOpenNav={setOpenNav} />}
       {!checkout && <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />}
       <Routes>
