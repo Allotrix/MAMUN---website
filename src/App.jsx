@@ -40,16 +40,13 @@ const MainApp = () => {
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/secretariat' element={<Secretariat />} />
         <Route path='/sponsors' element={<Sponsors />} />
-        <Route path='/about' element={<Aboutus />} />PrivacyPolicy
-
-        <Route path='/committees' element={<Committees />} />PrivacyPolicy
+        <Route path='/about' element={<Aboutus />} />
+        <Route path='/committees' element={<Committees />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/termsofservice' element={<Terms />} />
         <Route path='/contact' element={<Contact />} />
-
-
       </Routes>
       {!checkout && <Footer />}
     </>

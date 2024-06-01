@@ -162,6 +162,37 @@ export const USERS =  [
     { alt: 'client5', logo: "https://i.postimg.cc/Qdc2fPdm/allotrix-logo.png" },
     { alt: 'client6', logo: "https://i.postimg.cc/Qdc2fPdm/allotrix-logo.png" },
     { alt: 'client7', logo: "https://i.postimg.cc/Qdc2fPdm/allotrix-logo.png" },
-
-
 ];
+
+export const SECRETARIAT = [
+  {
+    name: "Fazil Razak",
+    designation: "Head Chairperson | DISEC",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+    img: "https://i.postimg.cc/150hrYSk/7.webp",
+  },
+  {
+    name: "Fazil Razak",
+    designation: "Head Chairperson | DISEC",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+    img: "https://i.postimg.cc/1XwxTvqN/6.webp",
+  },
+  {
+    name: "Fazil Razak",
+    designation: "Head Chairperson | DISEC",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+    img: "https://i.postimg.cc/150hrYSk/7.webp",
+  },
+  {
+    name: "Fazil Razak",
+    designation: "Head Chairperson | DISEC",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+    img: "https://i.postimg.cc/150hrYSk/7.webp",
+  },
+  {
+    name: "Fazil Razak",
+    designation: "Head Chairperson | DISEC",
+    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
+    img: "https://i.postimg.cc/150hrYSk/7.webp",
+  },
+]

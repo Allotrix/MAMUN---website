@@ -28,7 +28,7 @@ const Cursor = () => {
         );
       }
 
-      const container = document.getElementById('previous-mun-photos');
+      const container = document.getElementById('secretariat');
       
       if (container) {
         const rect = container.getBoundingClientRect();
@@ -57,6 +57,7 @@ const Cursor = () => {
       <div
         className='cursor-dot'
         style={{
+          display: `${showSwipeContent ? 'none' : 'block' }`,
           top: `${mousePosition.y}px`,
           left: `${mousePosition.x}px`,
           position: 'fixed',
@@ -73,6 +74,7 @@ const Cursor = () => {
         className='cursor-outline'
         ref={cursorOutlineRef}
         style={{
+          display: `${showSwipeContent ? 'none' : 'block' }`,
           position: 'fixed',
           transform: 'translate(-50%, -50%)',
           zIndex: 99,
@@ -86,17 +88,18 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-          className='swipe-content flex gap-1 text-[#fff] justify-center items-center'
-          style={{
-            position: 'fixed',
-            top: `${mousePosition.y + 20}px`,
-            left: `${mousePosition.x + 20}px`,
-            zIndex: 100,
-          }}
-        >
-        {<FaArrowLeft />} Swipe {<FaArrowRight />}
-
-        </div>
+        className='absolute bg-mamun-green rounded-full pointer-events-none font-mamun-font-secondary text-[white] flex flex-col items-center justify-center h-full'
+        style={{
+          width: '110px',
+          height: '110px',
+          position: 'fixed',
+          top: `${mousePosition.y + 20}px`,
+          left: `${mousePosition.x + 20}px`,
+          zIndex: 100,
+        }}
+      >
+        Scroll
+      </div>
       )}
     </>
   );

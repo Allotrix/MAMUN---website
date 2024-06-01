@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { COMMITTEES, USERS, CLIENTS, HEROCOMMITTEES} from '../utils/Constants';
+import { COMMITTEES, USERS, CLIENTS, HEROCOMMITTEES, SECRETARIAT} from '../utils/Constants';
 import GradientBox from '../components/GradientBox';
 import { GiSpeaker } from "react-icons/gi";
 import { IoVolumeMute } from "react-icons/io5";
@@ -10,6 +10,14 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const Home = () => {
 
   const [mute, setMute] = useState(false);
+  const [secretariatIndex, setSecretariatIndex] = useState(0);
+
+  const handleSecretariatScroll = (e) => {
+    const scrollTop = e.target.scrollTop;
+    const itemHeight = e.target.scrollHeight / secretariat.length;
+    const index = Math.floor(scrollTop / itemHeight);
+    setSecretariatIndex(index);
+  }
 
   const handleVideoMute = () => {
     const video = document.getElementById('munVideo');
@@ -65,10 +73,24 @@ const Home = () => {
           and more exciting committees! 
         </article>
       </section>
-      <section className='mt-14 w-full'>
-        <h2 className='md:text-5xl text-4xl px-4 text-[white] text-center'>
+      <section id='secretariat' className='mt-14 w-full'>
+        <h2 className='md:text-5xl text-4xl px-4 text-white text-center'>
           The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
         </h2>
+        <div className='flex gap-24 max-w-[65%] mx-auto my-20'>
+          <article className='flex flex-col gap-3 w-[70%]'>
+            <h4 className='text-4xl font-bold'>
+              Fazil Razak
+            </h4>
+            <h5 className='gradient-heading text-xl font-bold'>
+              Head Chairperson | DISEC
+            </h5>
+            <p className='text-xl text-justify'>
+              Lorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit ametLorem Ipsum Dolor Sit amet Lorem Ipsum Dolor Sit amet
+            </p>
+          </article>
+          <img className='w-[35%] min-h-full rounded-md object-cover' src="https://i.postimg.cc/1XwxTvqN/6.webp" alt="Executive" />
+        </div>
       </section>
       <section className='mt-14 md:max-w-[70%] mx-auto'>
         <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
