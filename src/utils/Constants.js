@@ -166,35 +166,30 @@ export const USERS =  [
 
 export const SECRETARIAT = [
   {
-    name: "Fazil Razak",
-    designation: "Head Chairperson | DISEC",
-    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
-    img: "https://i.postimg.cc/1XwxTvqN/6.webp",
+    name: "Aaryan Vishnu Anand",
+    designation: "President",
+    description: "A pioneer and a visionary—these are the very words that describe Aaryan Vishnu Anand. Bringing the best to conduct what is possibly the grandest Model United Nations (MUN) Chennai has ever seen, Aaryan's wisdom and unquenchable thirst for knowledge make him the inevitable choice to lead this extraordinary event. With his experienced Executive Board, he looks forward to providing delegates with an experience of a lifetime. (No pressure, right?) As the President of the One World Foundation, Aaryan doesn't just stop at organizing remarkable events; he actively works to make the world a better place for the youth. With a knack for turning lofty ideals into practical solutions (and maybe just a pinch of idealism), Aaryan Vishnu Anand is not only making waves in the MUN circuit but also leaving an indelible mark on the world stage. If ever there was a person to lead us into a brighter, more united future, it's Aaryan—brimming with enthusiasm, brilliance, and a touch of humor that keeps everyone on their toes.",
+    img: "https://i.postimg.cc/MGtWjdPp/DSC-0952.jpg ",
   },
   {
-    name: "Atheeb Hussain",
-    designation: "Head Chairperson | UNHRC",
-    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
-    img: "https://i.postimg.cc/TPNXWLxh/1.webp",
+    name: "Tanishq Dilip",
+    designation: "Secretary",
+    description: "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
+    img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
   },
   {
-    name: "Rakesh Karthik",
-    designation: "Head Chairperson | ECOSOC",
-    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
-    img: "https://i.postimg.cc/TPNXWLxh/1.webp",
+    name: "Akarsh Jaykumar",
+    designation: "Director",
+    description: "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
+    img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
   },
   {
-    name: "Mohamed Aashir",
-    designation: "Head Chairperson | SOCHUM",
-    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
-    img: "https://i.postimg.cc/150hrYSk/7.webp",
+    name: "Nithin K",
+    designation: "Chief Advisor",
+    description: "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
+    img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
   },
-  {
-    name: "Tharun Pranav",
-    designation: "Head Chairperson | UNSC",
-    description: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
-    img: "https://i.postimg.cc/150hrYSk/7.webp",
-  },
+  
 ]
 
 export const CHAIRS = [

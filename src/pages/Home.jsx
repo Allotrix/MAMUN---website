@@ -8,6 +8,8 @@ import TestimonialCard from '../components/TestimonialCard';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import SecretariatCard from '../components/SecretariatCard';
 import StickyScroll from '../components/StickyScroll';
+import { CHAIRS } from "../utils/Constants";
+
 const Home = () => {
 
   const [mute, setMute] = useState(false);
@@ -75,7 +77,7 @@ const Home = () => {
         <h2 className='md:text-5xl text-4xl px-4 text-white text-center'>
           The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
         </h2>
-        <StickyScroll/>
+        <StickyScroll OBJECT={CHAIRS}/>
 
 
 
