@@ -19,15 +19,16 @@ const PaymentState = ({ children }) => {
     const paymentData = {
         ...checkoutForm,
         address: checkoutForm.addressLine1 + "" + checkoutForm.addressLine2,
-        merchantTransactionId: `${checkoutForm.phoneNo.substring(0,7)}${checkoutForm.fullName.substring(0,7)}`
+        merchantTransactionId: `${checkoutForm.phoneNo.substring(0,7)}${checkoutForm.fullName.substring(0,7)}`,
+        merchantUserId: `${checkoutForm.fullName.substring(0,7)}${checkoutForm.email.substring(0,7)}`
     }
 
     const checkoutData = {
         "merchantId": process.env.REACT_APP_PHONEPE_MERCHANT_ID,
         "merchantTransactionId": paymentData.merchantTransactionId,
-        "merchantUserId": user?.uid,
+        "merchantUserId": paymentData.merchantUserId,
         "amount": 209000,
-        "redirectUrl": `https://allotrix.com/${selectedPlan}/${user?.uid}`,
+        "redirectUrl": `https://allotrix.com/`,
         "redirectMode": "REDIRECT",
         "mobileNumber": `${paymentData?.phoneNo}`,
         "paymentInstrument": {
