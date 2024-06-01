@@ -65,7 +65,7 @@ const Cursor = () => {
           pointerEvents: 'none',
           width: '5px',
           height: '5px',
-          backgroundColor: '#DCA843',
+          backgroundColor: '#02e29e',
           borderRadius: '50%',
         }}
       ></div>
