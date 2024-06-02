@@ -18,7 +18,7 @@ import Aboutus from './pages/Aboutus';
 import Itinerary from './pages/Itinerary';
 import PaymentState from './contexts/PaymentContext';
 import Agenda from './pages/Agenda';
-
+import Register from './pages/Register';
 const App = () => {
   return (
     <Router>
@@ -52,6 +52,7 @@ const MainApp = () => {
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/termsofservice' element={<Terms />} />
+        <Route path='/register' element={<Register />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       {!checkout && <Footer />}

@@ -55,7 +55,7 @@ function StickyScroll({OBJECT}) {
                 <img
                 src= {chair.img}
                 alt={`img-${index}`}
-                className="w-full h-full"
+                className="w-full h-full object-cover object-center"
                 />
             </div>
 

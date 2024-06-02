@@ -40,7 +40,7 @@ const Navbar = ({openNav, setOpenNav}) => {
                 </li>
             </ul>
             <div className='flex flex-col md:flex-row gap-7 items-center'>
-                <div className='bg-allotrix-std font-light py-2 px-8 rounded-lg text-[white] transition-all duration-300 ease-out hover:bg-[#161616] border-[1px] font-mamun-font-secondary'>
+                <div className='font-light py-2 px-8 rounded-lg text-[white] transition-all duration-300 ease-out hover:bg-[#161616] border-[1px] font-mamun-font-secondary'>
                     <Link to='/Register' onClick={() => setOpenNav(!openNav)}>
                         Register
                     </Link>

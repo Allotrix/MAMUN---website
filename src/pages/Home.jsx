@@ -50,12 +50,22 @@ const Home = () => {
         <h2 className='md:text-6xl text-2xl text-center font-bold'>
             CHENNAI HAS EVER SEEN
         </h2>
-        <h5 className='my-6 text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolores.
+        <h5 className='my-6 text-center text-2xl'>
+            27th - 29th of June, 2024
+            <p className='text-[#cbcbcb] text-[16px]'>Experience Listens. Be Heard.</p>
         </h5>
-        <a href="/" className='px-14 py-2 bg-mamun-blue rounded-lg'>
+        <div className='flex gap-2 justify-center items-center '>
+        <a href="/register" className='px-14 py-2 bg-mamun-blue rounded-lg'>
             Register Now
         </a>
+        <a href="https://matrix.allotrix.com" target="_blank" className='px-14 py-2 border-mamun-blue border-2 rounded-lg'>
+            Matrix
+        </a>
+
+        </div>
+        <br></br>
+        <p className='text-[12px] text-[#cbcbcb]'><a href='/termsofservice' className='hover:text-mamun-green'>Terms and Conditions </a> applied</p>
+        
       </section>
       <section className='mt-14 w-full'>
         <div className='flex flex-wrap gap-3 px-4 md:px-32 justify-center'>
@@ -70,13 +80,13 @@ const Home = () => {
             ))
           }
         </div>
-        <article className='text-center my-7'>
+        <article className='text-center my-7 text-[#cbcbcb]'>
           and more exciting committees! 
         </article>
       </section>
       <section id='secretariat' className='mt-14 w-full' onClick={handleSecretariatNext}>
         <h2 className='md:text-5xl text-4xl px-4 text-white text-center'>
-          The Perfect <span className='text-mamun-green font-bold'>Executive Board</span> Doesn't Exist
+          The Near-Perfect <br/><span className='text-mamun-green font-bold'>Executive Board</span>
         </h2>
         <StickyScroll OBJECT={CHAIRS}/>
 
@@ -85,7 +95,7 @@ const Home = () => {
 
       </section>
       <section className='mt-14 md:max-w-[70%] mx-auto'>
-        <GradientBox tag={"Madras Model United Nations"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUNNING experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
+        <GradientBox tag={"Madras Model United Nations"} href={"/register"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUN experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} />
       </section>
       <section className='w-full bg-[#141415] h-[100px] flex items-center mt-24 mb-10'>
         <div className='w-full md:w-[75%] overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
@@ -116,18 +126,17 @@ const Home = () => {
 
       <section className='w-full'>
         <div className='px-4 md:mx-32 rounded-lg relative flex flex-col items-center'>
-          <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay loop>
+          <video id='munVideo' className='rounded-lg' src={'/endgame.mp4'} autoPlay muted loop>
             Your browser does not support the video.
           </video>
           <button onClick={handleVideoMute} className='p-2 rounded-md bg-[#949393] text-[black] text-2xl absolute right-6 top-4'>
             {mute ? <IoVolumeMute /> : <GiSpeaker />}
           </button>
-          <a className='text-md text-center' href="/">
+          <a className='text-md text-center text-[#cbcbcb]' href="/">
             View video gallery
           </a>
           <h5 className='text-center px-4 w-full md:w-[700px] my-10 text-2xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium nisi tempore rerum pariatur! Maiores, quibusdam nisi repellat est tenetur quas reprehenderit ipsum labore corporis, iste obcaecati! Tempora, itaque nihil.
-          </h5>
+          From meticulously organized committees to expertly curated social events, every aspect of Madras MUN is designed to provide a seamless and enriching experience.          </h5>
         </div>
       </section>
       <section className='w-full px-4 md:px-32 my-14'>
