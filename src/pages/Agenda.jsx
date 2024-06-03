@@ -49,7 +49,7 @@ const Agenda = () => {
                     </button>
                 </aside>
             </section>
-            <section className='pt-[200px] w-full flex flex-col items-center'>
+            <section className='w-full flex flex-col items-center'>
 
             <section className={`my-14 w-full px-4 md:max-w-[800px] mx-auto ${showAbout ? "block": "hidden"}`}>
                 <h2 className='text-xl font-semibold'>
@@ -59,7 +59,7 @@ const Agenda = () => {
                     {committee.about}
                 </p>
             </section>
-            <section className={` ${showEB ? "block": "hidden"} pt-[200px] w-full flex flex-col items-center`}>
+            <section className={` ${showEB ? "block": "hidden"} w-full flex flex-col items-center`}>
 
                 <StickyScroll OBJECT={COMMITTEES[comIndex].board} />
             </section> 
