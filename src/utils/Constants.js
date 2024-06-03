@@ -9,21 +9,21 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
+        name: "Gowtham Srinivas",
         designation: "Secretary",
         description:
-          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
+          "Mr.Gowtham Srinivas is an avid MUNner who has attended 100+ MUNs spanning all over India. He is a Political Science major and often comes across various topics that help keep him up to date on the current affairs of the world as well as agendas of MUNs. Gowtham particularly enjoys MUNs as it gives people a chance to constructively debate world problems and arrive at well-informed solutions. He also enjoys the sessions themselves, the small jokes, and the heated lobbying.",
         img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
       },
       {
-        name: "Akarsh Jaykumar",
+        name: "Advaith",
         designation: "Director",
         description:
           "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
         img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
       },
       {
-        name: "Nithin K",
+        name: "Harirropan Mathan",
         designation: "Chief Advisor",
         description:
           "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
@@ -41,22 +41,21 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
+        name: "Prathamesh",
+        designation: "Co - Chair",
         description:
           "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
         img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
       },
       {
-        name: "Akarsh Jaykumar",
-        designation: "Director",
-        description:
-          "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
-        img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
+        name: "Radha Priyanka",
+        designation: "Co- Chair",
+        description: `-Radha Priyanka is a 19 year old natively from Hyderabad pursuing her Law at Amity University, Jaipur.For the past five years, Radha has been diving headfirst into the exciting world of MUNs, participating in around 50 conferences! She started Avasa Foundation in 2022 and is running it successfully. Inspired by the power of words and actions, Radha finds herself particularly drawn to the work of Malala Yousafzai. Malala's quote, We cannot all succeed when half of us are held back, echoes deeply in Radha's heart, fueling her belief in inclusivity and giving everyone a voice.  Today, as the Co-Chairperson of the Food and Agriculture Organization of the United Nations, Radha stands poised to lead with grace and is looking forward to fruitful exchange of ideas in this committee.`,
+        img: "https://i.postimg.cc/mDHZ5bVw/Radha.jpg        ",
       },
       {
-        name: "Nithin K",
-        designation: "Chief Advisor",
+        name: "Arjunvir",
+        designation: "Vice Chair",
         description:
           "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
         img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
@@ -73,22 +72,22 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
+        name: "Athmaram",
+        designation: "Co Chair",
         description:
-          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
-        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+          "Athmaram is a vibrant personality who is not afraid to speak his mind and always enjoys a good argument. Having attended his fair share of MUNs and adding a multitude of awards to his credit, he is no stranger to the circuit. His outstanding personality and charm make him approachable and captivating to all. With his infectious energy and a whisper of wit in his everyday decisions, he is sure to leave a lasting impression in this conference.          ",
+        img: "https://i.postimg.cc/9QmMQHFm/Aathmaram.jpg        ",
       },
       {
-        name: "Akarsh Jaykumar",
-        designation: "Director",
+        name: "Keerthana",
+        designation: "Co Chair",
         description:
           "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
         img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
       },
       {
-        name: "Nithin K",
-        designation: "Chief Advisor",
+        name: "Sara Sahoonja",
+        designation: "Director",
         description:
           "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
         img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
@@ -105,24 +104,23 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
+        name: "Atheeb Hussain",
+        designation: "Co Chair",
         description:
-          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
-        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+          "Atheeb has excelled in debates, accumulating 50+ experiences in both delegation and chairing roles. He's participated in prestigious events like ILMUNs, Harvard MUN, and more. Atheeb, founder of the fintech startup Astrapi Money and the SAAS automation application Allotrix, as well as a founding member of the job-search startup SkillSync Canada, has also hosted renowned guests, including Mr. Oscar Berry and Ms. Taryn Riddle (President of HMUN Qatar and Secretary General of Harvard MUN India). He was awarded Student of the Year by VIT in 2022-23. Atheeb, who was mentored by Stanford professors, placed fourth in India at the F1S 2024 National Finals and is a candidate for the World Finals. In 2022, he earned the Best Engineering RND Award at F1S India. His thesis was recognized as the third best internationally, leading to an invitation to Atria University. Atheeb's talents extend to competitive coding and winning in hackathons. Fluent in seven languages and a skilled instrumentalist.",
+        img: "https://i.postimg.cc/ncZV3fm4/Atheeb.png",
       },
       {
-        name: "Akarsh Jaykumar",
-        designation: "Director",
-        description:
-          "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
+        name: "Lokesh Narayan",
+        designation: "Co Chair",
+        description: "I am a cute girl",
         img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
       },
       {
         name: "Nithin K",
         designation: "Chief Advisor",
         description:
-          "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
+          "Gurshaan Singh, a final year Engineering student at VITC, with his expressive speech and a hands on approach to leadership, is the perfect fit for this role. He's not just a big friendly giant; he's the guy who doesn't hesitate to dash around with boundless energy on the big day, always with a warm smile and a reminder for everyone to stay hydrated iykyk. Look forward to a warm Punjabi welcome from him through the course of the conference !",
         img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
       },
     ],
@@ -137,18 +135,17 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
-        description:
-          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
-        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+        name: "Ravivatsan",
+        designation: "Speaker",
+        description: "i am a pretty girl",
+        img: "https://i.postimg.cc/650WSbVD/Ravivatsan.jpg        ",
       },
       {
-        name: "Akarsh Jaykumar",
+        name: "Sujith Kumar",
         designation: "Director",
         description:
-          "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
-        img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
+          'a third-year Computer Science student at SRM Institute of Science and Technology is an avid public speaker with an appetite for Indian Polity. While he admires extensive research, he understands that the ability to remain humble separates a good delegate from a great delegate, and firmly believes in the revered Tamil couplet Thirukkural, which states "பிறப்பொக்கும் எல்லா உயிர்க்கும் சிறப்பொவ்வா செய்தொழில் வேற்றுமை யான்."',
+        img: "https://i.postimg.cc/tJdq92Kn/Sujith.jpg        ",
       },
       {
         name: "Nithin K",
@@ -169,15 +166,15 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
+        name: "Ayush",
+        designation: "Co Chair",
         description:
           "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
         img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
       },
       {
-        name: "Akarsh Jaykumar",
-        designation: "Director",
+        name: "Ashwamedh     ",
+        designation: "Vice Chair",
         description:
           "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
         img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
@@ -201,18 +198,17 @@ export const COMMITTEES = [
       "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
     board: [
       {
-        name: "Tanishq Dilip",
-        designation: "Secretary",
-        description:
-          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
-        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+        name: "Shankar",
+        designation: "Co Chair",
+        description: "",
+        img: "https://i.postimg.cc/Y0B2cJsw/Shankar.jpg        ",
       },
       {
-        name: "Akarsh Jaykumar",
+        name: "TCA Varshini",
         designation: "Director",
         description:
           "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
-        img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
+        img: "https://i.postimg.cc/8kLPdz7k/Varshini.jpg        ",
       },
       {
         name: "Nithin K",
@@ -241,6 +237,70 @@ export const COMMITTEES = [
       },
       {
         name: "Akarsh Jaykumar",
+        designation: "Director",
+        description:
+          "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
+        img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
+      },
+      {
+        name: "Nithin K",
+        designation: "Chief Advisor",
+        description:
+          "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
+        img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
+      },
+    ],
+  },
+  {
+    comAbb: "IPC (Photography)",
+    com: "IPC (Photography)    ",
+    comAgenda: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR",
+    comLogo: "https://i.postimg.cc/76jX8HB2/Frame-47.webp",
+    bgGuide: "",
+    about:
+      "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
+    board: [
+      {
+        name: "Abdul Raziq         ",
+        designation: "Secretary",
+        description:
+          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
+        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+      },
+      {
+        name: "Prabhu Shankar ",
+        designation: "Director",
+        description:
+          "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
+        img: "https://i.postimg.cc/hPhpFvWy/DSC-0933.jpg",
+      },
+      {
+        name: "Nithin K",
+        designation: "Chief Advisor",
+        description:
+          "From being a dreaded delegate of USA to dominating any and all committees, Nithin is a fearsome delegate among the MUN circuit, being no stranger to Policy based committees. His fame doesn’t stop there, organising several successful MUN conferences, and participating in over 30 conferences himself. He is also considered the epitome of 'Veni, Vidi, Vici.' by a few. From turning committees into chaos and mayhem, Nithin promises to turn this into a smooth and successful conference as the chief advisor",
+        img: "https://i.postimg.cc/P5Wfdt1Z/Whats-App-Image-2024-05-31-at-20-51-54.jpg",
+      },
+    ],
+  },
+  {
+    comAbb: "IPC (Journalism)   )",
+    com: "IPC (Journalism) ",
+    comAgenda: "LOREM IPSUM DOLOR AMET SIT, PABLO ESCOBAR",
+    comLogo: "https://i.postimg.cc/76jX8HB2/Frame-47.webp",
+    bgGuide: "",
+    about:
+      "Lorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes hereLorem Ipsum Dolor sir amet agenda of the committee goes here",
+    board: [
+      {
+        name: "Sriyaansh Mohanty         ",
+        designation: "Secretary",
+        description:
+          "Introducing Tanishq Dilip an adept negotiator and master of business deals who thrives in the high-stakes world of entrepreneurship and business. His keen interest in these fields makes him an invaluable asset to any discussion table, and his strategic thinking ensures that no detail goes unnoticed. Tanishq approaches every challenge with unmatched confidence and precision. He lives by the words, 'I don't have dreams, I have goals,' reflecting his commitment to setting ambitious targets and consistently exceeding them. His ability to read the room and anticipate every move is unparalleled, allowing him to navigate complex negotiations and launch groundbreaking startups with ease. In the realm of Model United Nations, Tanishq Dilip stands out as a formidable delegate who combines his love for business with his sharp negotiation skills. His persuasive arguments and deft handling of entrepreneurial policies showcase his deep understanding and commitment to creating meaningful solutions.",
+        img: "https://i.postimg.cc/SKmSswGP/DSC-0909.jpg",
+      },
+      {
+        name: "Subhasri ",
         designation: "Director",
         description:
           "Hey everyone! I'm Akarsh Jaykumar. When I'm not binge-watching comedy classics like ‘Superbad and 21 Jump Street,’ I often listen to music from smooth R&B to rap and jazz. I also enjoy watching football, being a Manchester United fan (it's painful)",
@@ -448,8 +508,9 @@ export const CHAIRS = [
   {
     name: "Atheeb Hussain",
     designation: "Co Chairperson | DISEC",
-    img:"https://i.postimg.cc/t4wFCZ2J/DSC-0584-11-25-10-AM-fotor-2024020316193.png",
-    description: "Atheeb has excelled in debates, accumulating 50+ experiences in both delegation and chairing roles. He's participated in prestigious events like ILMUNs, Harvard MUN, and more. Atheeb, founder of the fintech startup Astrapi Money and the SAAS automation application Allotrix, as well as a founding member of the job-search startup SkillSync Canada, has also hosted renowned guests, including Mr. Oscar Berry and Ms. Taryn Riddle (President of HMUN Qatar and Secretary General of Harvard MUN India). He was awarded Student of the Year by VIT in 2022-23. Atheeb, who was mentored by Stanford professors, placed fourth in India at the F1S 2024 National Finals and is a candidate for the World Finals. In 2022, he earned the Best Engineering RND Award at F1S India. His thesis was recognized as the third best internationally, leading to an invitation to Atria University. Atheeb's talents extend to competitive coding and winning in hackathons. Fluent in seven languages and a skilled instrumentalist.",
+    img: "https://i.postimg.cc/ncZV3fm4/Atheeb.png    ",
+    description:
+      "Atheeb has excelled in debates, accumulating 50+ experiences in both delegation and chairing roles. He's participated in prestigious events like ILMUNs, Harvard MUN, and more. Atheeb, founder of the fintech startup Astrapi Money and the SAAS automation application Allotrix, as well as a founding member of the job-search startup SkillSync Canada, has also hosted renowned guests, including Mr. Oscar Berry and Ms. Taryn Riddle (President of HMUN Qatar and Secretary General of Harvard MUN India). He was awarded Student of the Year by VIT in 2022-23. Atheeb, who was mentored by Stanford professors, placed fourth in India at the F1S 2024 National Finals and is a candidate for the World Finals. In 2022, he earned the Best Engineering RND Award at F1S India. His thesis was recognized as the third best internationally, leading to an invitation to Atria University. Atheeb's talents extend to competitive coding and winning in hackathons. Fluent in seven languages and a skilled instrumentalist.",
   },
   {
     name: "Lokesh Narayan",
