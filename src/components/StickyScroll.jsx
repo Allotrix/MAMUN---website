@@ -31,7 +31,7 @@ function StickyScroll({OBJECT}) {
   }, []);
 
   return (
-    <div className="gallery flex w-[90%] mx-auto pt-[200px]">
+    <div className="gallery flex w-[90%] mx-auto">
       <div className="left w-[80%] ml-auto">
        { OBJECT.map((chair, index)=>(
             <article key={index} className='flex flex-col gap-3 md:w-[70%] mb-[500px]'>
