@@ -30,6 +30,7 @@ const Agenda = () => {
 
     return (
         <main className='font-mamun-font-secondary text-[white]'>
+
             <section className={`pt-36 mx-auto w-full flex flex-col items-center md:px-32 px-4 ${!showAbout && "mb-24"}`}>
                 <div className='h-[180px] w-[180px]'>
                     <img className='max-h-full max-w-full' src={committee.comLogo} alt="logo" />
@@ -59,10 +60,10 @@ const Agenda = () => {
                     {committee.about}
                 </p>
             </section>
-            <section className={` ${showEB ? "block": "hidden"} w-full flex flex-col items-center`}>
+            {showEB? <StickyScroll OBJECT={COMMITTEES[comIndex].board} /> : null}
+            
 
-                <StickyScroll OBJECT={COMMITTEES[comIndex].board} />
-            </section> 
+            
             </section>
         </main>
     )

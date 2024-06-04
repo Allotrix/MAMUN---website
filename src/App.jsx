@@ -19,6 +19,7 @@ import Itinerary from './pages/Itinerary';
 import PaymentState from './contexts/PaymentContext';
 import Agenda from './pages/Agenda';
 import Register from './pages/Register';
+import SponsorMore from './pages/SponsorMore';
 const App = () => {
   return (
     <Router>
@@ -47,6 +48,8 @@ const MainApp = () => {
         <Route path='/about' element={<Aboutus />} />
         <Route path='/committees' element={<Committees />} />
         <Route path='/committees/:comName' element={<Agenda />} />
+        <Route path='/sponsors/:sponsorName' element={<SponsorMore />} />
+
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/itinerary' element={<Itinerary />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />

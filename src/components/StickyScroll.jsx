@@ -32,7 +32,7 @@ function StickyScroll({OBJECT}) {
 
   return (
     <div className="gallery flex w-[90%] mx-auto pt-[150px]">
-      <div className="left w-[80%] ml-auto">
+      <div className="left w-[90%] ml-auto">
        { OBJECT.map((chair, index)=>(
             <article key={index} className='flex flex-col gap-3 md:w-[70%] mb-[500px]'>
                 <h4 className='text-4xl font-bold'>

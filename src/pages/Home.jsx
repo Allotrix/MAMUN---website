@@ -54,7 +54,7 @@ const Home = () => {
             27th - 29th of June, 2024
             <p className='text-[#cbcbcb] text-[16px]'>Experience Listens. Be Heard.</p>
         </h5>
-        <div className='flex gap-2 justify-center items-center '>
+        <div className=' flex flex-wrap gap-3 px-4 md:px-32  justify-center items-center '>
         <a href="/register" className='px-14 py-2 bg-mamun-blue rounded-lg'>
             Register Now
         </a>
