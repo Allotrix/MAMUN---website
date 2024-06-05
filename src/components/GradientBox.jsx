@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const GradientBox = ({ tag, title, photo, buttonName, link }) => {
   return (
-    <div className="flex min-h-min items-center justify-center px-10 w-[100%]">
-        <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue">
+    <div className="flex self-center items-center justify-center px-10 w-full max-w-[1200px]">
+      <div className="rounded-[12px] p-px bg-gradient-to-r from-mamun-green to-mamun-light-blue w-full">
             <div className="rounded-[12px] py-10 md:p-10 bg-[black] text-[white] flex flex-col-reverse md:flex-row  justify-center items-center ">
                 <div className="md:w-8/12 px-5 flex flex-col gap-6">
                     <p className="text-[#CDCDCD] text-left  ">{tag}</p>
