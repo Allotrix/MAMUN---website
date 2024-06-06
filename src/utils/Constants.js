@@ -52,8 +52,11 @@ export const COMMITTEES = [
         name: "Lokesh Narayan",
         designation: "Co Chairperson",
         description:           
-          "Atheeb has excelled in debates, accumulating 50+ experiences in both delegation and Chairpersoning roles. He's participated in prestigious events like ILMUNs, Harvard MUN, and more. Atheeb, founder of the fintech startup Astrapi Money and the SAAS automation application Allotrix, as well as a founding member of the job-search startup SkillSync Canada, has also hosted renowned guests, including Mr. Oscar Berry and Ms. Taryn Riddle (President of HMUN Qatar and Secretary General of Harvard MUN India). He was awarded Student of the Year by VIT in 2022-23. Atheeb, who was mentored by Stanford professors, placed fourth in India at the F1S 2024 National Finals and is a candidate for the World Finals. In 2022, he earned the Best Engineering RND Award at F1S India. His thesis was recognized as the third best internationally, leading to an invitation to Atria University. Atheeb's talents extend to competitive coding and winning in hackathons. Fluent in seven languages and a skilled instrumentalist.",
-        img: "https://i.postimg.cc/mDR7tBpb/Screenshot-2024-06-05-at-10-09-28-PM.png",
+              `With a knack for quirky remarks and witty jokes, Lokesh has been associated with the Chennai MUN circuit since his school days. As someone who doesn’t get caught in the spin of mundane messes, he possesses an ability to stay calm at the most unsettled times, resolving conflicts is his stronghold. 
+
+When you don’t find him engrossed in a debate about why The Soviet Union is the best state to ever exist, you can find him composing music at the comfort of his keyboard.
+`,        
+        img: "https://i.postimg.cc/cHbLT0WS/Lokesh.jpg",
       },
       {
         name: "Gurshaan Singh",
@@ -444,7 +447,7 @@ export const CHAIRS = [
   {
     name: "Lokesh Narayan",
     designation: "Co Chairperson | DISEC",
-    img: "https://i.postimg.cc/mDR7tBpb/Screenshot-2024-06-05-at-10-09-28-PM.png",
+    img: "https://i.postimg.cc/cHbLT0WS/Lokesh.jpg",
     description:
 `With a knack for quirky remarks and witty jokes, Lokesh has been associated with the Chennai MUN circuit since his school days. As someone who doesn’t get caught in the spin of mundane messes, he possesses an ability to stay calm at the most unsettled times, resolving conflicts is his stronghold. 
 `  },
