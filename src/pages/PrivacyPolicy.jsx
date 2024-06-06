@@ -2,32 +2,32 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <section className=' text-[white] flex flex-col items-center py-24 md:mt-0 px-6 gap-10 md:items-start text-left md:px-32 md:gap-4 md:pt-48'>
-        <div className=' w-full text-center mt-16 md:mt-0'>
+    <section className='text-[white] flex flex-col items-center py-24 md:mt-0 px-6 gap-10 md:items-start text-left md:px-32 md:gap-4 md:pt-48'>
+        <div className='w-full text-center mt-16 md:mt-0'>
             <h1 className='font-bold text-3xl md:text-4xl md:mb-10 px-2'>
                 Privacy Policy
             </h1>
         </div>
         <div className='md:w-[750px] mx-auto flex flex-col gap-6'>
             <p>
-              Welcome to Allotrix. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:allotrixapp@gmail.com" className="text-blue-500">allotrixapp@gmail.com</a>.
+              Welcome to Madras MUN. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:madrasmun@gmail.com" className="text-blue-500">madrasmun@gmail.com</a>.
             </p>
             <p>
-              When you visit our website <a href="http://www.allotrix.com" className="text-blue-500">www.allotrix.com</a> (the "Website"), and more generally, use any of our services (the "Services," which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Services immediately.
+              When you visit our website <a href="http://www.madrasmun.com" className="text-blue-500">www.madrasmun.com</a> (the "Website"), and more generally, use any of our services (the "Services," which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Services immediately.
             </p>
             <ol className='flex flex-col gap-4 list-decimal pl-4'>
               <li>
                 <strong>What Information Do We Collect?</strong>
                 <ul className='list-disc'>
                   <li className='ml-4'>
-                    We collect personal information that you voluntarily provide to us when you register on the Website, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Website, or otherwise when you contact us.
+                    We collect personal information that you voluntarily provide to us when you register on the Website, express an interest in obtaining information about us or our events and Services, when you participate in activities on the Website, or otherwise when you contact us.
                   </li>
                   <li className='ml-4'>
                     The personal information that we collect depends on the context of your interactions with us and the Website, the choices you make, and the products and features you use. The personal information we collect may include the following:
                     <ul className="list-disc ml-6">
-                      <li>Personal Information: Full name, email address, and other similar information.</li>
+                      <li>Personal Information: Full name, email address, phone number, school/college name, and other similar information.</li>
                       <li>Documents: Identity proof documents and payment screenshots.</li>
-                      <li>Preferences: Registration preferences and profile pictures.</li>
+                      <li>Preferences: Registration preferences, MUN committee and country preferences, and profile pictures.</li>
                     </ul>
                   </li>
                 </ul>
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
                     We use personal information collected via our Website for a variety of business purposes described below:
                     <ul className="list-disc ml-6">
                       <li>To facilitate account creation and the logon process.</li>
-                      <li>To send administrative information to you, sales emails, and updates. You may opt-out of receiving these communications from us by clicking on the unsubscribe link or following the instructions provided in any email we send.</li>
+                      <li>To send administrative information to you, including registration confirmation, event details, and updates. You may opt-out of receiving these communications from us by clicking on the unsubscribe link or following the instructions provided in any email we send.</li>
                       <li>To enforce our terms, conditions, and policies for business purposes, to comply with legal and regulatory requirements, or in connection with our contract.</li>
                       <li>To respond to legal requests and prevent harm.</li>
                     </ul>
@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
                     In some regions, such as the European Economic Area, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.
                   </li>
                   <li className='ml-4'>
-                    If you have questions or comments about your privacy rights, you may email us at <a href="mailto:allotrixapp@gmail.com" className="text-blue-500">allotrixapp@gmail.com</a>.
+                    If you have questions or comments about your privacy rights, you may email us at <a href="mailto:madrasmun@gmail.com" className="text-blue-500">madrasmun@gmail.com</a>.
                   </li>
                 </ul>
               </li>

@@ -260,7 +260,7 @@ export const SPONSORS = [
     TITLE: "Automate your events in a click of a button!",
     DESC: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
     COMPANYLOGO: "https://i.postimg.cc/J7fmKjQ1/Allotrix-final.png",
-    COVERIMG: "https://media.licdn.com/dms/image/D5616AQESZJmlMX-O_w/profile-displaybackgroundimage-shrink_350_1400/0/1709291462917?e=1723075200&v=beta&t=bl2M_3oT2yB9ggfz2uUjE5i_XWEoNRn1xj8sJjDn3ww",
+    COVERIMG: "https://i.postimg.cc/xdFGHYLM/One-month-processes.png    ",
     HREF: "https://allotrix.com"
   },
   { 
@@ -269,7 +269,7 @@ export const SPONSORS = [
     TITLE: "Collect funds professionally without a business bank account",
     DESC: "Lorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit ametLorem Ipusum Dolor Sit amet Lorem Ipusum Dolor Sit amet",
     COMPANYLOGO: "https://i.postimg.cc/XqFRtDgn/LOGO-Astrapi-Money4.png",
-    COVERIMG: "https://media.licdn.com/dms/image/D5616AQESZJmlMX-O_w/profile-displaybackgroundimage-shrink_350_1400/0/1709291462917?e=1723075200&v=beta&t=bl2M_3oT2yB9ggfz2uUjE5i_XWEoNRn1xj8sJjDn3ww",
+    COVERIMG: `https://i.postimg.cc/8CCBjsfT/One-month-processes-1.png    `,
     HREF: "https://astrapimoney.com"
   },
   {

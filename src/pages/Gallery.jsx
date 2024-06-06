@@ -19,6 +19,13 @@ const Gallery = () => {
   };
 
   return (
+    <>
+    <main className='font-bold text-5xl text-[white] flex items-center justify-center h-[100vh] w-full font-mamun-font-secondary'>
+      <h1>
+        COMING <span className='text-mamun-green'>SOON</span>
+      </h1>
+    </main>
+    {/*
     <main className='relative overflow-hidden font-mamun-font-secondary'>
       <section id='committees' className='flex flex-col text-center gap-8 py-24 mt-24 px-4 md:px-48'>
         <h1 className='text-[60px] font-bold text-[white]'>Spotlight</h1>
@@ -66,6 +73,8 @@ const Gallery = () => {
         </button>
       </section>
     </main>
+    */}
+    </>
   );
 };
 

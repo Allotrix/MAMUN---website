@@ -94,8 +94,9 @@ const Home = () => {
 
 
       </section>
-      <section className='mt-14 md:max-w-[70%] mx-auto'>
+      <section className='mt-14 md:max-w-[70%] mx-auto flex flex-col gap-2'>
         <GradientBox tag={"Madras Model United Nations"} href={"/register"} buttonName={"Register"} title={"Be a part of the Exculsive, Be a part of real MUN experience"} photo={"https://i.postimg.cc/2jLNqTZz/IMG-8571.png"} link={"/register"} />
+          <a href='/about' className='self-center text-[#cdcdcd] hover:text-mamun-green'><p>About OWF & Madras MUN</p></a>
       </section>
       <section className='w-full bg-[#141415] h-[100px] flex items-center mt-24 mb-10'>
         <div className='w-full md:w-[75%] overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
